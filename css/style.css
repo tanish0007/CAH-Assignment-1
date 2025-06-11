@@ -117,16 +117,24 @@ header{
 .blue-section {
     background-color: #140748;
     color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* padding: 150px 130px 130px ; */
+    position: relative;
+}
+.blue-section-content{
+    padding: 150px 130px 130px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 150px 130px 130px ;
-    position: relative;
+    width: 100%;
 }
 .slider{
     position: absolute;
     top: -40%;
-    left: 12%;
+    /* left: 12%; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +143,7 @@ header{
 .slider .images {
     display: flex;
     column-gap: 20px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .slider img{
     width: 200px;
