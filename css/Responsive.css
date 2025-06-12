@@ -1,0 +1,19 @@
+/* Media Queries */
+@media only screen and (max-width: 948px) {
+    .navbar{
+        display: none;
+    }
+    #backside-image{
+        display: block;
+        width: 100%;
+        background-image: url('../images/Back.webp');
+        background-size: cover;
+        padding-top: 30rem;
+        /* background: linear-gradient(to right, rgba(0,0,0,0.8) 20%, transparent); */
+        /* background: black; */
+        background-blend-mode: multiply;
+    }
+    .header-text{
+        background: black;
+    }
+}

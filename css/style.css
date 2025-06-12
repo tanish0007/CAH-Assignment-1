@@ -30,6 +30,9 @@ header{
     font-size: 40px;
     font-weight: 800;
 }
+#backside-image{
+    display: none;
+}
 .navigation {
     display: flex;
     gap: 20px;
