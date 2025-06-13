@@ -30,7 +30,7 @@ header{
     font-size: 40px;
     font-weight: 800;
 }
-#backside-image{
+.backside-image{
     display: none;
 }
 .navigation {
@@ -169,6 +169,7 @@ header{
 .section-image {
     width: 100px;
 }
+
 /* About-section */
 .about{
     display: grid;

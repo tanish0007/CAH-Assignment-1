@@ -1,5 +1,5 @@
 /* Media Queries */
-@media only screen and (max-width: 948px) {
+/* @media only screen and (max-width: 948px) {
     .navbar{
         display: none;
     }
@@ -9,11 +9,194 @@
         background-image: url('../images/Back.webp');
         background-size: cover;
         padding-top: 30rem;
-        /* background: linear-gradient(to right, rgba(0,0,0,0.8) 20%, transparent); */
-        /* background: black; */
         background-blend-mode: multiply;
     }
     .header-text{
         background: black;
+    }
+} */
+
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    header{
+        background-image: none;
+    }
+    .backside-image{
+        display: block;
+        width: 100%;
+        background: linear-gradient(to right, rgba(0,0,0,0.8) 20%, transparent);
+    }
+    .backside-image img{
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .header-text{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        background: linear-gradient(to right, #070707 50%, #2a2428);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .header-text h1{
+        font-size: 2.2rem;
+        margin-top: 0;
+    }
+    .header-text p{
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.2em;;
+        width: 80%;
+        margin-bottom: 45px;
+    }
+    .header-text hr{
+        width: 85%;
+        border: none;
+        border-top: 1px solid rgba(184, 184, 184, 0.309);
+    }
+    .social-links{
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .social-links i {
+        font-size: 25px;
+    }
+    .skills{
+        padding: 30px;
+        grid-template-columns: auto;
+    }
+    .skills-box{
+        padding: 30px;
+        row-gap: 28px;
+    }
+    .middle-one{
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid rgba(128, 128, 128, 0.447);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.447);
+    }
+    .skills-box img{
+        width: 80px;
+    }
+    .skills-box .about-skill{
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    .blue-section{
+        padding: 30px;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .images img:nth-child(2),img:nth-child(3),img:nth-child(4){
+        display: none;
+    }
+    .slider img{
+        width: 100%;
+    }
+    .blue-section-content{
+        padding: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+        row-gap: 35px;
+    }
+    .secction-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-text{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .sub-text{
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .section-image {
+        margin-top: 10px;
+        width: 110px;
+    }
+    .about{
+        grid-template-columns: 100%;
+        padding-bottom: 0;
+    }
+    .about-text{
+        padding-left: none;
+        padding: 30px;
+    }
+    .detail-heading{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .about-text p {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .tags ul li{
+        font-size: 20px;
+        i{
+            font-size: 17px; 
+        }
+    }
+    .about-text button{
+        font-size: 14px;
+    }
+    #education{
+        grid-template-columns: 100%;
+    }
+    .education-data{
+        order: 2;
+        padding-left: 0;
+        padding: 30px;
+    }
+    .education-heading{
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .education-path{
+        border-left: none;
+    }
+    .education-box{
+        padding-left: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        position: relative;
+    }
+    .education-box span{
+        display: none;
+    }
+    .path-row{
+        display: none;
+    }
+    .course-name{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        font-size: 22px
+    }
+    .edu-year{
+        font-size: 20px;
+    }
+    .education-box p{
+        font-size: 16px;
     }
 }
