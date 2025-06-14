@@ -75,7 +75,7 @@
     .slider{
         position: relative;
     }
-    .slider .images img:nth-child(2),img:nth-child(3),img:nth-child(4){
+    .slider .images img:nth-child(2),.slider .images img:nth-child(3),.slider .images img:nth-child(4){
         display: none;
     }
     .slider img{
