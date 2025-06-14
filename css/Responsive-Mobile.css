@@ -1,21 +1,3 @@
-/* Media Queries */
-/* @media only screen and (max-width: 948px) {
-    .navbar{
-        display: none;
-    }
-    #backside-image{
-        display: block;
-        width: 100%;
-        background-image: url('../images/Back.webp');
-        background-size: cover;
-        padding-top: 30rem;
-        background-blend-mode: multiply;
-    }
-    .header-text{
-        background: black;
-    }
-} */
-
 @media (max-width: 768px){
     .navbar{
         display: none;
