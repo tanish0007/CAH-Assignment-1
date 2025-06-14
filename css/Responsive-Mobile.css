@@ -48,6 +48,7 @@
     .social-links i {
         font-size: 25px;
     }
+    /* skills */
     .skills{
         padding: 30px;
         grid-template-columns: auto;
@@ -69,6 +70,7 @@
         font-size: 16px;
         line-height: 1.4em;
     }
+    /* blue-section */
     .blue-section{
         padding: 30px;
     }
@@ -89,7 +91,7 @@
         padding-bottom: 70px;
         row-gap: 35px;
     }
-    .secction-text{
+    .section-text{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -110,6 +112,7 @@
         margin-top: 10px;
         width: 110px;
     }
+    /* about-section */
     .about{
         grid-template-columns: 100%;
         padding-bottom: 0;
@@ -137,6 +140,7 @@
     .about-text button{
         font-size: 14px;
     }
+    /* education section */
     #education{
         grid-template-columns: 100%;
     }
@@ -188,6 +192,7 @@
     .education-box p{
         font-size: 16px;
     }
+    /* services section */
     .services{
         padding-top: 0;
         padding-bottom: 0;
@@ -221,6 +226,7 @@
         grid-template-columns: auto;
         padding: 30px;
     }
+    /* testimonials section */
     .testimonials{
         display: flex;
         flex-direction: column-reverse;
@@ -242,6 +248,7 @@
         flex-direction: column;
         row-gap: 30px;
     }
+    /* contact section */
     .contact-section{
         grid-template-columns: auto;
     }
@@ -276,6 +283,7 @@
         padding: 30px;
         box-shadow: none;
     }
+    /* footer section */
     .footer{
         padding: 30px;
     }

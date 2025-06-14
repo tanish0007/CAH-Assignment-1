@@ -1,3 +1,277 @@
 @media (max-width: 1024px) {
-    
+    .navbar{
+        display: none;
+    }
+    header{
+        background-image: none;
+    }
+    .backside-image{
+        display: block;
+        width: 100%;
+        background-color: linear-gradient(to right, rgba(0,0,0,0.8) 20%, transparent);
+    }
+    .backside-image img{
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .header-text{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(to right, #070707 50%, #2a2428);
+        display: flex;
+        flex-direction: column;
+    }
+    .header-text h1{
+        font-size: 60px;
+        margin-top: 0;
+    }
+    .header-text p{
+        font-size: 24px;
+        line-height: 1.2em;;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .header-text hr{
+        width: 85%;
+        border: none;
+        border-top: 1px solid rgba(184, 184, 184, 0.309);
+    }
+    .social-links{
+        margin-top: 25px;
+    }
+    .social-links i {
+        font-size: 25px;
+    }
+    /* skills section */
+    .skills{
+        padding: 40px;
+        grid-template-columns: auto;
+    }
+    .skills-box{
+        padding: 40px;
+        row-gap: 28px;
+    }
+    .middle-one{
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid rgba(128, 128, 128, 0.447);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.447);
+    }
+    .skills-box img{
+        width: 110px;
+    }
+    .skills-box .about-skill{
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    /* blue-section */
+    .blue-section{
+        padding: 40px;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .images{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .slider .images img:nth-child(3),.slider .images img:nth-child(4){
+        display: none;
+    }
+    .slider img{
+        width: 100%;
+    }
+    .blue-section-content{
+        padding: 0;
+        padding-top: 50px;
+        row-gap: 35px;
+    }
+    .section-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-text{
+        font-size: 40px;
+        width: 100%;
+    }
+    .sub-text{
+        width: 100%;
+        line-height: 1.5em;
+        width: 85%;
+        font-size: 22px;
+    }
+    .section-image {
+        margin-top: 10px;
+        width: 110px;
+    }
+    /* about-section */
+    .about{
+        grid-template-columns: 100%;
+        padding-bottom: 0;
+    }
+    .about-image{
+        padding: 0 70px;
+    }
+    .about-text{
+        padding-left: none;
+        padding: 40px;
+    }
+    .detail-heading{
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .about-text p {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .tags ul li{
+        font-size: 22px;
+        i{
+            font-size: 17px; 
+        }
+    }
+    .about-text button{
+        font-size: 14px;
+    }
+    /* education-section */
+    #education{
+        grid-template-columns: 100%;
+    }
+    .box-image{
+        padding: 0 70px;
+    }
+    .education-data{
+        order: 2;
+        padding-left: 0;
+        padding: 40px;
+    }
+    .education-heading{
+        font-size: 40px;
+    }
+    .education-box{
+        padding-left: 78px;
+        padding-top: 30px;
+    }
+    .course{
+        left: -5px;
+    }
+    .course-name{
+        font-size: 22px;
+    }
+    .edu-year{
+        font-size: 20px;
+    }
+    .education-box p{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    /* services section */
+    .services{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .upper-services-box{
+        padding: 40px;
+    }
+    .service-heading{
+        font-size: 40px;
+    }
+    .service-text{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 10px;
+        font-weight: 200;
+    }
+    .services-provide{
+        grid-template-columns: auto auto;
+        gap: 40px;
+        padding: 40px;
+    }
+    .service-card{
+        margin-top: 20px;
+    }
+    .service-card img{
+        width: 100%;
+    }
+    .service-card .card-text{
+        font-size: 22px;
+    }
+    .all-services{
+        grid-template-columns: auto auto;
+        padding: 40px;
+        gap: 40px;
+    }
+    /* testimonials section */
+    .testimonials{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo-images{
+        grid-template-columns: auto auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding: 40px;
+    }
+    .logo-images img{
+        padding: 40px;
+    }
+    .reviews{
+        margin-top: 40px;
+        position: relative;
+        flex-direction: column;
+        row-gap: 40px;
+        padding: 0 40px;
+    }
+    .review{
+        width: 100%;
+    }
+    .review-text{
+        font-size: 17px;
+        width: 100%;
+    }
+    /* contact secction */
+    .contact-section{
+        grid-template-columns: auto;
+    }
+    .my-details{
+        order: 2;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 40px;
+        width: 100%;
+    }
+    .query{
+        font-size: 40px;
+    }
+    .location-text{
+        font-size: 22px;
+
+    }
+    .call-us{
+        font-size: 22px;
+    }
+    .contact-form-box{
+        order: 1;
+    }
+    .contact-form{
+        position: relative;
+        left: 0;
+    }
+    .form{
+        padding: 40px;
+        box-shadow: none;
+    }
+    /* footer section */
+    .footer{
+        padding: 40px;
+        padding-top: 0;
+    }
 }
