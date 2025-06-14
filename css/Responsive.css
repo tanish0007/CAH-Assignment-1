@@ -187,6 +187,13 @@
     .path-row{
         display: none;
     }
+    .course{
+        display: flex;
+        flex-direction: column;
+    }
+    .present{
+        margin-left: 0;
+    }
     .course-name{
         width: 100%;
         text-align: center;
@@ -198,5 +205,99 @@
     }
     .education-box p{
         font-size: 16px;
+    }
+    .services{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .upper-services-box{
+        padding: 30px;
+    }
+    .service-heading{
+        font-size: 30px;
+    }
+    .service-text{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 10px;
+        font-weight: 200;
+    }
+    .services-provide{
+        grid-template-columns: auto;
+        padding: 30px;
+    }
+    .service-card{
+        margin-top: 20px;
+    }
+    .service-card img{
+        width: 100%;
+    }
+    .service-card .card-text{
+        font-size: 22px;
+    }
+    .all-services{
+        grid-template-columns: auto;
+        padding: 30px;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo-images{
+        grid-template-columns: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding: 30px;
+    }
+    .logo-images img{
+        padding: 30px;
+    }
+    .reviews{
+        margin-top: 30px;
+        position: relative;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .contact-section{
+        grid-template-columns: auto;
+    }
+    .my-details{
+        order: 2;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .query{
+        font-size: 30px;
+    }
+    .location-text{
+        font-size: 22px;
+
+    }
+    .call-us{
+        font-size: 22px;
+    }
+    .contact-form-box{
+        order: 1;
+    }
+    .contact-form{
+        position: relative;
+        left: 0;
+    }
+    .form{
+        padding: 30px;
+        box-shadow: none;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-text{
+        font-size: 40px;
     }
 }
